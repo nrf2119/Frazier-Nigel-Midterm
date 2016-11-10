@@ -1,0 +1,44 @@
+.carousel {
+  margin-bottom: 20px;
+}
+
+.carousel-caption {
+  z-index: 10;
+}
+
+
+.carousel .item {
+  height: 350px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 350px;
+}
+.carousel-caption p {
+  font-size: 30px;
+}
+.content-knowledge{
+  padding 100px;
+}
+
+p .quote{
+  margin: 20px
+}
+
+#infographic{
+  background-color: #D3D3D3;
+}
+
+#question{
+  background-color: #D3D3D3;
+  margin: 20px;
+  padding: 20px;
+}
+
+.navbar{
+  margin-bottom: 0;
+}

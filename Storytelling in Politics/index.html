@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- My stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Storytelling in Politics</title>
+</head>
+
+<body>
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-inverse navbar-static-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+              </button>
+
+                <a class="navbar-brand" href="#">Storytelling in Politics</a>
+            </div>
+
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#video">Video</a></li>
+                    <li><a href="#infographic">Infographic</a></li>
+                    <li><a href="#library">Ad Library</a></li>
+                    <li><a href="#question">Question</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- 0: Carousel -->
+    <div class="carousel" data-ride="carousel" id="featuredItems" data-interval="false">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#featuredItems" data-slide-to="0" class="active"></li>
+            <li data-target="#featuredItems" data-slide-to="1"></li>
+            <li data-target="#featuredItems" data-slide-to="2"></li>
+        </ol>
+        <!-- Inner Carousel w/ 3 items-->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="images/sky.jpg" alt="Reducing Complexity Photo">
+                <div class="carousel-caption">
+                    <p>Candidates running for office work hard to reduce the complexities of the modern world into simple, soundbite-friendly stories. They invoke heroes and villains, fear and hope.</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/sky.jpg" alt="idk yet">
+                <div class="carousel-caption">
+                    <p>Every election cycle, we’re asked to make monumental decisions about which people and policies should control our country, and we have to sort through a barrage of information to arrive at our selections.</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/sky.jpg" alt="idk yet">
+                <div class="carousel-caption">
+                    <p>The politicians that prevail are excellent storytellers.</p>
+                </div>
+            </div>
+        </div>
+        <!-- close inner carousel -->
+
+        <!-- Carousel controls -->
+        <a class="left carousel-control" href="#featured" role="button" data-slide="prev"><span class ="glyphicon glyphicon-chevron-left" aria-hidden="true"></span></a>
+        <a class="right carousel-control" href="#featured" role="button" data-slide="next"><span class ="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a>
+
+    </div>
+    <!-- close carousel -->
+
+    <!-- 1: Video and Text -->
+    <div class="content container" id="video">
+        <div class="row">
+            <div class="col-xs-12 text-center">
+                <h1>How to Win an Election</h1>
+                <iframe width="630" height="354" src="https://www.youtube.com/embed/tly8abRH4ws" align="center" id="videothumnail" frameborder="0" allowfullscreen></iframe>
+
+                <p>
+                    <quote>"In this film, a campaign manager reveals the storytelling strategies used to elect Mr. Bush with openness and candor, and in doing so lays bare the fundamental narrative strategies that remain at the core of today’s presidential campaigns.
+                        But Mr. McKinnon believes that the power of storytelling has a dark side that voters should be more aware of. His new message is a warning to all citizens: <em>You’re being manipulated, and our democracy relies on your ability to see that.</em>"</quote>
+                </p>
+
+                <p class="source"> From New York Times Article: <a href="http://www.nytimes.com/2016/02/18/opinion/how-to-win-an-election.html"> How To Win</a></p>
+            </div>
+        </div>
+    </div>
+    <!-- Close Video and Text -->
+
+    <!-- 2: Inforgraphic -->
+    <div class="content container" id="infographic">
+        <div class="row">
+            <section class="col-md-12">
+                <h1>Common Features of Political Storytelling</h1>
+            </section>
+        </div>
+        <!-- First row of infogrpahic -->
+        <div class="row">
+            <section class=" col-xs-12 col-sm-4 content-knowledge ">
+                <h2>Victims</h2>
+                <img src="http://placehold.it/200x250 " alt="victim-image ">
+            </section>
+            <section class="col-xs-12 col-sm-4 ">
+                <h2>Villains</h2>
+                <img src="http://placehold.it/200x250 " alt="villain-image ">
+            </section>
+            <section class="col-xs-12 col-sm-4 ">
+                <h2>Heroes</h2>
+                <img src="http://placehold.it/200x250 " alt="hero-image ">
+            </section>
+        </div>
+        <!-- Second row of infogrpahic -->
+        <div class="row">
+            <section class="col-xs-12 col-sm-4 ">
+                <h2>Opportunities</h2>
+                <img src="http://placehold.it/200x250 " alt="opportunities-image ">
+            </section>
+            <section class="col-xs-12 col-sm-4 ">
+                <h2>Threats</h2>
+                <img src="http://placehold.it/200x250 " alt="threats-image ">
+            </section>
+            <section class="col-xs-12 col-sm-4 ">
+                <h2>Resolution</h2>
+                <img src="http://placehold.it/200x250 " alt="resolution-image ">
+            </section>
+        </div>
+        <!-- 3rd row of infogrpahic -->
+        <div class="row">
+            <section class="col-xs-12 col-sm-6 ">
+                <h2>Fear</h2>
+                <img src="http://placehold.it/300x250 " alt="fear-image ">
+            </section>
+            <section class="col-xs-12 col-sm-6 ">
+                <h2>Hope</h2>
+                <img src="http://placehold.it/300x250 " alt="hope-image ">
+            </section>
+        </div>
+    </div>
+    <!-- Close of Infographic -->
+
+    <!-- 3: Ad Library -->
+    <div class="content container" id="library">
+        <div class="row ">
+            <h1>Campaign Ad Library</h1>
+            <p>Watch a few videos from the campaign library and please respond to the question below.</p>
+            <section class="col-xs-12 col-sm-4 ">
+                <h3><a href="https://www.youtube.com/embed/jI7ke3a7wOM">Video Title/Link</a></h3>
+                <iframe width="200 " height="140 " src="https://www.youtube.com/embed/jI7ke3a7wOM" frameborder="0 " allowfullscreen></iframe>
+            </section>
+            <section class="col-xs-12 col-sm-4 ">
+                <h3><a href="https://www.youtube.com/embed/NKGqyMtnO7E">Video Title/Link</a></h3>
+                <iframe width="200 " height="140 " src="https://www.youtube.com/embed/NKGqyMtnO7E " frameborder="0 " allowfullscreen></iframe>
+            </section>
+            <section class="col-xs-12 col-sm-4 ">
+                <h3><a href="https://www.youtube.com/embed/6FxL242-z6I">Video Title/Link</a></h3>
+                <iframe width="200 " height="140 " src="https://www.youtube.com/embed/6FxL242-z6I " frameborder="0 " allowfullscreen></iframe>
+            </section>
+        </div>
+    </div>
+    <!-- Close Ad Library -->
+
+    <!-- 4: Assessment -->
+    <div class="content container" id="question">
+        <div class="row">
+            <div class="col-xs-12">
+                <h1>Question</h1>
+                <h3>Can you recognize any of the common features listed above in these political campaign ads? </h3>
+                <textarea class="form-control " rows="5" placeholder="Which ones do you see? What kind of stories are these ads telling? "></textarea>
+
+                <button id="submitButton" type="button " class="btn btn-primary btn-lg pull-right ">Submit</button>
+            </div>
+        </div>
+    </div>
+    <!-- Close Assessment -->
+
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="code.js "></script>
+    <script type="text/javascript">
+        // Activate Carousel
+        $("#featuredItems").carousel();
+
+        // Enable Carousel Indicators
+        $(".item").click(function() {
+            $("#featuredItems").carousel(1);
+        });
+
+        // Enable Carousel Controls
+        $(".left").click(function() {
+            $("#featuredItems").carousel("prev");
+        });
+        $(".right").click(function() {
+            $("#featuredItems").carousel("next");
+        });
+    </script>
+</body>
+
+</html>
